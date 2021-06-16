@@ -15,16 +15,17 @@ class App extends Component {
   render() {
     return (
         <>
-        <audio controls id="nietzsche" crossOrigin="anonymous">
-            <source src="http://206.190.135.28:8332/stream/;.m3u"/>
-        </audio>
-        <audio controls id="shakespeare" crossOrigin="anonymous">
-            <source src="https://streamingv2.shoutcast.com/JamendoLounge" type="audio/mpeg"/>
-        </audio>
-        <audio controls id="stream" crossOrigin="anonymous">
-            <source src="http://streamingv2.shoutcast.com/ABC-Jazz" type="audio/mpeg"/>
-        </audio>
-        <video id="video" style={{display: 'none'}}></video>
+        {/*<audio controls id="nietzsche" crossOrigin="anonymous">*/}
+        {/*    <source src="http://206.190.135.28:8332/stream/;.m3u"/>*/}
+        {/*</audio>*/}
+        {/*<audio controls id="shakespeare" crossOrigin="anonymous">*/}
+        {/*    <source src="https://streamingv2.shoutcast.com/JamendoLounge" type="audio/mpeg"/>*/}
+        {/*</audio>*/}
+        {/*<audio controls id="stream" crossOrigin="anonymous">*/}
+        {/*    /!*<source src="http://streamingv2.shoutcast.com/ABC-Jazz" type="audio/mpeg"/>*!/*/}
+        {/*    <source src="audio/nietzsche/works3_01_nietzscne_64kb.mp3" type="audio/mp3"/>*/}
+        {/*</audio>*/}
+        {/*<video id="video" style={{display: 'none'}}></video>*/}
         <div id="overlay">
           <button id="startButton">Play</button>
         </div>

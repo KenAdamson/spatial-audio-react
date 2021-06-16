@@ -2,19 +2,152 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="71d0e0e3-dbac-4bca-9953-ff8219c29d0e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RGBELoader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/audio-engine.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/Carbon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/Carbon_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/Scratched_gold_01_1K_Normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/Water_1_M_Normal.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/textures/golfball.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RGBELoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio-engine.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/audio-engine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_01_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_01_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_02_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_02_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_03_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_03_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_04_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_04_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_05_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_05_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_06_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_06_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_07_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_07_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_08_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_08_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/nietzsche/works3_09_nietzsche_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/nietzsche/works3_09_nietzsche_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_01_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_01_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_02_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_02_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_03_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_03_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_04_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_04_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_05_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_05_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_06_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_06_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_07_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_07_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_08_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_08_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_09_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_09_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_10_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_10_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_11_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_11_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_12_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_12_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_13_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_13_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_14_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_14_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_15_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_15_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_16_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_16_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_17_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_17_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_18_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_18_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_19_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_19_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/shakespeare_01-20/aspectsoflove_20_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/shakespeare_01-20/aspectsoflove_20_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_001_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_001_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_002_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_002_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_003_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_003_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_004_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_004_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_005_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_005_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_006_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_006_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_007_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_007_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_008_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_008_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_009_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_009_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_010_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_010_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_011_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_011_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_012_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_012_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_013_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_013_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_014_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_014_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_015_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_015_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_016_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_016_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_017_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_017_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_018_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_018_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_019_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_019_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_020_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_020_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_021_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_021_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_022_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_022_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_023_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_023_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_024_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_024_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_025_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_025_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_026_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_026_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_027_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_027_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_028_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_028_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_029_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_029_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_030_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_030_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_031_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_031_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_032_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_032_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_033_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_033_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_034_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_034_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_035_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_035_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_036_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_036_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_037_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_037_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_038_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_038_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_039_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_039_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_040_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_040_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_041_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_041_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_042_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_042_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_043_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_043_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_044_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_044_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_045_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_045_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_046_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_046_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_047_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_047_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_048_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_048_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_049_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_049_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_050_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_050_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_051_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_051_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_052_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_052_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_053_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_053_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_054_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_054_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_055_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_055_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_056_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_056_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_057_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_057_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_058_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_058_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_059_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_059_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_060_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_060_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_061_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_061_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_062_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_062_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_063_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_063_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_064_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_064_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_065_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_065_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_066_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_066_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_067_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_067_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_068_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_068_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_069_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_069_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_070_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_070_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_071_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_071_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_072_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_072_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_073_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_073_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_074_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_074_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_075_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_075_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_076_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_076_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_077_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_077_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_078_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_078_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_079_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_079_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_080_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_080_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_081_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_081_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_082_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_082_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_083_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_083_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_084_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_084_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_085_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_085_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_086_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_086_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_087_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_087_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_088_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_088_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_089_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_089_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_090_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_090_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_091_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_091_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_092_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_092_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_093_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_093_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_094_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_094_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_095_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_095_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_096_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_096_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_097_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_097_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_098_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_098_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_099_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_099_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_100_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_100_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_101_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_101_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_102_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_102_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_103_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_103_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_104_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_104_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_105_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_105_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_106_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_106_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_107_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_107_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/audio/worldsbestpoetry/worldsbestpoetry7_2_108_various_64kb.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/public/audio/worldsbestpoetry/worldsbestpoetry7_2_108_various_64kb.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/Carbon.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/textures/Carbon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/Carbon_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/textures/Carbon_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/Scratched_gold_01_1K_Normal.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/textures/Scratched_gold_01_1K_Normal.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/Water_1_M_Normal.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/textures/Water_1_M_Normal.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/textures/golfball.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/public/textures/golfball.jpg" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,9 +184,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\src\spatial-streaming-react\public" />
       <recent name="E:\src\spatial-streaming-react\src" />
       <recent name="E:\src\spatial-streaming-react\textures" />
-      <recent name="E:\src\spatial-streaming-react\public" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -81,7 +214,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1623370526931</updated>
-      <workItem from="1623370528365" duration="27270000" />
+      <workItem from="1623370528365" duration="27591000" />
+      <workItem from="1623799787202" duration="10692000" />
     </task>
     <servers />
   </component>
@@ -89,17 +223,25 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="786" y="862" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623395156195">
+    <state x="786" y="862" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1623800876164">
       <screen x="0" y="0" width="3840" height="2130" />
     </state>
-    <state x="786" y="862" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2130@0.0.3840.2130" timestamp="1623395156195" />
-    <state x="203" y="137" width="1761" height="1843" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1623431794241">
+    <state x="786" y="862" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3840.2130@0.0.3840.2130" timestamp="1623800876164" />
+    <state x="203" y="137" width="1761" height="1843" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1623805509785">
       <screen x="0" y="0" width="3840" height="2130" />
     </state>
-    <state x="203" y="137" width="1761" height="1843" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3840.2130@0.0.3840.2130" timestamp="1623431794241" />
-    <state x="780" y="790" width="607" height="536" key="find.popup" timestamp="1623390919292">
+    <state x="203" y="137" width="1761" height="1843" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.3840.2130@0.0.3840.2130" timestamp="1623805509785" />
+    <state x="1044" y="883" key="com.intellij.ide.util.TipDialog" timestamp="1623799787548">
       <screen x="0" y="0" width="3840" height="2130" />
     </state>
-    <state x="780" y="790" width="607" height="536" key="find.popup/0.0.3840.2130@0.0.3840.2130" timestamp="1623390919292" />
+    <state x="1044" y="883" key="com.intellij.ide.util.TipDialog/0.0.3840.2130@0.0.3840.2130" timestamp="1623799787548" />
+    <state x="780" y="790" width="678" height="536" key="find.popup" timestamp="1623820488457">
+      <screen x="0" y="0" width="3840" height="2130" />
+    </state>
+    <state x="780" y="790" width="678" height="536" key="find.popup/0.0.3840.2130@0.0.3840.2130" timestamp="1623820488457" />
+    <state x="778" y="516" width="672" height="678" key="search.everywhere.popup" timestamp="1623818119860">
+      <screen x="0" y="0" width="3840" height="2130" />
+    </state>
+    <state x="778" y="516" width="672" height="678" key="search.everywhere.popup/0.0.3840.2130@0.0.3840.2130" timestamp="1623818119860" />
   </component>
 </project>
