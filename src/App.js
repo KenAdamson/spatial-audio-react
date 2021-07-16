@@ -5,7 +5,7 @@ import * as RES from 'resonance-audio';
 
 class App extends Component {
     roomDimensions = {
-        height: 2.46,
+        height: 3,
         width: 6.67,
         depth: 4
     };
@@ -16,7 +16,7 @@ class App extends Component {
     canterbury = "/audio/worldsbestpoetry/worldsbestpoetry7_2_093_various_64kb.mp3";
     two_readers = "/audio/remaster/LR-two-readers-remaster.mp3";
 
-    audio = new Audio(this.two_readers);
+    audio = new Audio();
 
     roomMaterials = {
         left: 'concrete-block-coarse',
@@ -30,8 +30,7 @@ class App extends Component {
     audioContext = null;
 
     componentDidMount() {
-        this.audioContext = this.getAudioContext();
-        this.sceneInit();
+
     }
 
     render() {
@@ -85,27 +84,36 @@ class App extends Component {
 
     getEmitterPositions = () => {
         let leftChannelPosition = {
-            x: -1,
+            x: -2,
             y: 1.5,
-            z: 2
+            z: 1
         };
 
         let rightChannelPosition = {
-            x: 1,
+            x: 2,
             y: 1.5,
-            z: 2
+            z: 1
         };
 
         return [ leftChannelPosition, rightChannelPosition ];
     };
 
     sceneInit = (event) => {
+        this.audio.src = "http://streamingv2.shoutcast.com/ABC-Jazz?lang=en-US%2cen%3bq%3d0.9";
+        this.audio.crossOrigin = "anonymous";
+        this.audio.type = "audio/mpeg";
+        this.audio.controls = true;
+        this.audio.id = "stream";
+
         // create the scene and context
-        let resonanceAudioScene = this.constructAudioScene();
+        let resonanceAudioScene = new RES.ResonanceAudio(this.audioContext);
+        resonanceAudioScene.setAmbisonicOrder(3);
+        resonanceAudioScene.output.connect(this.audioContext.destination);
 
         // add a room to the scene
-        this.addRoomToScene(resonanceAudioScene);
-
+        resonanceAudioScene.setRoomProperties(this.roomDimensions, this.roomMaterials);
+        resonanceAudioScene.setListenerPosition(0, 0, -1);
+        resonanceAudioScene.setListenerOrientation(0, 0, 1, 0, 1, 0);
         let audioSource = this.audioContext.createMediaElementSource(this.audio);
 
 
@@ -127,7 +135,7 @@ class App extends Component {
         let rightChannelSource = resonanceAudioScene.createSource();
         rightChannelSource.setPosition(rightChannelPosition.x, rightChannelPosition.y, rightChannelPosition.z);
         rightChannelSource.setOrientation(0, 0, -1, 0, 1, 0);
-        //rightChannelSource.setDirectivityPattern(0.5, 20);
+        rightChannelSource.setDirectivityPattern(0.5, 20);
         rightChannelSource.setGain(2);
         // rightChannelSource.setSourceWidth(60);
         //
@@ -137,29 +145,9 @@ class App extends Component {
 
     }
 
-    addRoomToScene = (resonanceAudioScene) => {
-        //this.roomDimensions = {height: 4, width: 6, depth: 10};
-
-        this.updateSliders(this.roomDimensions);
-
-        resonanceAudioScene.setRoomProperties(this.roomDimensions, this.roomMaterials);
-        resonanceAudioScene.setListenerPosition(0, 1.5, -1);
-        resonanceAudioScene.setListenerOrientation(0, 0, 1, 0, 1, 0);
-    };
-
-    constructAudioScene = () => {
-        if(this.audioContext == null) {
-            throw new Error('AudioContext has not been initialized yet!');
-        }
-
-        let resonanceAudioScene = new RES.ResonanceAudio(this.audioContext);
-        resonanceAudioScene.setAmbisonicOrder(3);
-
-        resonanceAudioScene.output.connect(this.audioContext.destination);
-        return resonanceAudioScene;
-    }
-
     play = () => {
+        this.audioContext = this.getAudioContext();
+        this.sceneInit();
         this.audio.play();
     };
 }
